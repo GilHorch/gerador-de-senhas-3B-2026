@@ -124,12 +124,22 @@ label{
     background-color: var(--fundo-senha);
     border:1px solid var(--borda);
 }
+.forca{
+height: 30px;
+position: relative;
+bottom: 30px; 
+}
 .fraca{
-    height: 30px;
     width: 25%;
     background-color: rgb(255, 0, 0);
-    position: relative;
-    bottom: 30px;
+}
+.media{
+    width: 50%;
+    background-color: rgb(255, 255, 0);
+}
+.forte{
+    width: 100%;
+    background-color: rgb(0, 255, 0);
 }
 .parametro-senha-textos{
     display: flex;
