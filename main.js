@@ -10,8 +10,8 @@ function diminuiTamanho() {
   numeroSenha.textContent=tamanhoSenha;//atribui o tamanho Senha ao numeroSenha
 }
 
-botoes[1].onclick=aumentaTamanho;
+botoes[1].onclick = aumentaTamanho;
 function aumentaTamanho() {
-  tamanhoSenha=tamanhoSenha+1;  //diminui de 1 o valor do tamanhoSenha
-  numeroSenha.textContent=tamanhoSenha;//atribui o tamanho Senha ao numeroSenha
+  tamanhoSenha = tamanhoSenha+1;  //aumenta de 1 o valor do tamanhoSenha
+  numeroSenha.textContent = tamanhoSenha;//atribui o tamanho Senha ao numeroSenha
 }
