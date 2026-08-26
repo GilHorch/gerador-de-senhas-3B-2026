@@ -14,7 +14,7 @@ if(tamanhoSenha >1){
       tamanhoSenha--;
 }
   numeroSenha.textContent=tamanhoSenha;//atribui o tamanho Senha ao numeroSenha
-  geraSenha();
+  diminuiTamanho();
 }
 
 function aumentaTamanho() {
@@ -23,7 +23,7 @@ function aumentaTamanho() {
         tamanhoSenha++;
     }
   numeroSenha.textContent = tamanhoSenha;//atribui o tamanho Senha ao numeroSenha
-  geraSenha();
+  aumentaTamanho();
 }
 
 const campoSenha=document.querySelector(#campo-senha);
