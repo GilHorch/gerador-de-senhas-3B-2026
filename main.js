@@ -7,7 +7,7 @@ const botoes=document.querySelectorAll('.parametro-senha__botao');//selecionando
 
 
 
-botoes[0].onclick = diminuiTamanho;
+botoes[0].onclick = diminuiTamanho;//Tirar os parenteses
 botoes[1].onclick = aumentaTamanho;
 
 function diminuiTamanho() {
