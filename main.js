@@ -41,5 +41,5 @@ numeroAleatorio=Math.floor(numeroAleatorio);
 console.log(letrasMaiusculas[numeroAleatorio]);
 senha=senha+letrasMaiusculas[numeroAleatorio];
 }
-}
 campoSenha.value=senha;
+}
