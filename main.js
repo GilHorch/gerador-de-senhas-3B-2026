@@ -31,7 +31,7 @@ function aumentaTamanho() {
 const campoSenha=document.querySelector('.campo-senha');
 const letrasMaiusculas='ABCDEFG';
 
-geraSenha();
+//geraSenha();
 function geraSenha(){
 let senha ="";
 
