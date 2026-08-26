@@ -4,6 +4,8 @@ let tamanhoSenha=12;//variael que pode ser alterada
 numeroSenha.textContent=tamanhoSenha;//atribui o tamnho Senha ao numeroSenha
 
 const botoes=document.querySelectorAll('parametro-senha__botao');//selecionando todas as classes "parametro-senha__botao"
+diminuiTamanho();
+aumentaTamanho();
 
 botoes[0].onclick = diminuiTamanho();
 botoes[1].onclick = aumentaTamanho();
@@ -14,7 +16,7 @@ if(tamanhoSenha >1){
       tamanhoSenha--;
 }
   numeroSenha.textContent=tamanhoSenha;//atribui o tamanho Senha ao numeroSenha
-  diminuiTamanho();
+  
 }
 
 function aumentaTamanho() {
@@ -23,7 +25,7 @@ function aumentaTamanho() {
         tamanhoSenha++;
     }
   numeroSenha.textContent = tamanhoSenha;//atribui o tamanho Senha ao numeroSenha
-  aumentaTamanho();
+  
 }
 
 const campoSenha=document.querySelector(#campo-senha);
