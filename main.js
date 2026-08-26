@@ -3,7 +3,7 @@ let tamanhoSenha=12;//variael que pode ser alterada
 
 numeroSenha.textContent=tamanhoSenha;//atribui o tamnho Senha ao numeroSenha
 
-const botoes=document.querySelectorAll('parametro-senha__botao');//selecionando todas as classes "parametro-senha__botao"
+const botoes=document.querySelectorAll('.parametro-senha__botao');//selecionando todas as classes "parametro-senha__botao"
 
 
 
@@ -28,7 +28,7 @@ function aumentaTamanho() {
   geraSenha();
 }
 
-const campoSenha=document.querySelector(.campo-senha);
+const campoSenha=document.querySelector('.campo-senha');
 const letrasMaiusculas='ABCDEFG';
 
 geraSenha();
