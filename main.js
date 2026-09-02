@@ -5,8 +5,6 @@ numeroSenha.textContent=tamanhoSenha;//atribui o tamnho Senha ao numeroSenha
 
 const botoes=document.querySelectorAll('.parametro-senha__botao');//selecionando todas as classes "parametro-senha__botao"
 
-
-
 const campoSenha=document.querySelector('#campo-senha');
 const letrasMaiusculas='ABCDEFG';
 
@@ -30,9 +28,6 @@ function aumentaTamanho() {
   numeroSenha.textContent = tamanhoSenha;//atribui o tamanho Senha ao numeroSenha
   geraSenha();
 }
-
-
-
 
 
 function geraSenha(){
