@@ -7,6 +7,9 @@ const botoes=document.querySelectorAll('.parametro-senha__botao');//selecionando
 
 
 
+const campoSenha=document.querySelector('#campo-senha');
+const letrasMaiusculas='ABCDEFG';
+
 botoes[0].onclick = diminuiTamanho;//Tirar os parenteses
 botoes[1].onclick = aumentaTamanho;
 
@@ -28,8 +31,7 @@ function aumentaTamanho() {
   geraSenha();
 }
 
-const campoSenha=document.querySelector('#campo-senha');
-const letrasMaiusculas='ABCDEFG';
+
 
 
 
